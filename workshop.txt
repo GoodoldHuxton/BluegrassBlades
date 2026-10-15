@@ -44,4 +44,4 @@ description=
 description=Mod ID: BluegrassBlades
 description=Made by GoodoldHuxton.
 tags=Build 42;Weapons;Items
-visibility=unlisted
+visibility=public
