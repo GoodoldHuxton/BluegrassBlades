@@ -1,3 +1,7 @@
 Thumbs.db
 desktop.ini
 *.tmp
+
+# The Indie Stone files copied for reference must never enter the public repo
+_src/vanilla_ref/
+vanilla_ref/
