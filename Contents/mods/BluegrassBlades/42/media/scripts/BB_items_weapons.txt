@@ -59,7 +59,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Leather_Blued,
     }
 
@@ -113,7 +113,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Polymer_BlackOxide,
     }
 
@@ -167,7 +167,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Walnut_Satin,
     }
 
@@ -221,7 +221,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Bone_Satin,
     }
 
@@ -275,7 +275,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Walnut_Temper,
     }
 
@@ -329,7 +329,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade;BB_Forge_Damascus_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Ivory_Damascus,
     }
 
@@ -383,7 +383,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 0.8,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Polymer_Satin,
     }
 
@@ -437,7 +437,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 0.8,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Polymer_Rusted,
     }
 
@@ -491,7 +491,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Leather_BlackOxide,
     }
 
@@ -545,7 +545,7 @@ module BluegrassBlades
         Tags = base:cutplant;base:sharpknife;base:butcheranimal;base:sharpenable;base:killanimal;base:hasmetal,
         Sharpness = 1.0,
         OnBreak = OnBreak.HuntingKnife,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade;BB_Forge_Damascus_Bowie_Blade,
         WeaponSprite = BluegrassBlades.BB_Bowie_Bone_Damascus,
     }
 
@@ -597,7 +597,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Walnut_Satin,
     }
 
@@ -649,7 +649,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Bone_Satin,
     }
 
@@ -701,7 +701,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Polymer_Satin,
     }
 
@@ -753,7 +753,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Walnut_Temper,
     }
 
@@ -805,7 +805,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 0.8,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Polymer_Satin,
     }
 
@@ -857,7 +857,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 0.8,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Polymer_Rusted,
     }
 
@@ -909,7 +909,7 @@ module BluegrassBlades
         WeaponLength = 0.19,
         Tags = base:sharpknife;base:butcheranimal;base:sharpenable;base:smeltablesteelmedium;base:hasmetal,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife,
+        Researchablerecipes = Forge_Crude_Blade;Forge_Small_Knife;BB_Forge_Fillet_Blade,
         WeaponSprite = BluegrassBlades.BB_Fillet_Leather_Satin,
     }
 

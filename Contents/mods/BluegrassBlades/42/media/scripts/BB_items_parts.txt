@@ -21,7 +21,7 @@ module BluegrassBlades
         WorldStaticModel = Base.HuntingKnifeBladeForged,
         ConditionMax = 10,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade,
     }
 
     item BowieBlade_Damascus
@@ -29,14 +29,14 @@ module BluegrassBlades
         DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.0,
-        Icon = HuntingKnifeBlade_Forged,
+        Icon = BB_BowieBlade_Damascus,
         Tooltip = Tooltip_BB_Blade_Unfinished,
         Tags = base:hasmetal;base:largeblade;base:sharpenable;base:showcondition;base:smeltablesteelmedium,
-        StaticModel = Base.HuntingKnifeBladeForged,
-        WorldStaticModel = Base.HuntingKnifeBladeForged,
+        StaticModel = BluegrassBlades.BB_BowieBlade_Damascus,
+        WorldStaticModel = BluegrassBlades.BB_BowieBlade_Damascus,
         ConditionMax = 10,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Hunting_Knife_Blade;Forge_Large_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Bowie_Blade;BB_Forge_Damascus_Bowie_Blade,
     }
 
     item FilletBlade
@@ -51,7 +51,7 @@ module BluegrassBlades
         WorldStaticModel = Base.KitchenKnifeBladeForged,
         ConditionMax = 10,
         Sharpness = 1.0,
-        Researchablerecipes = Forge_Kitchen_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool,
+        Researchablerecipes = Forge_Kitchen_Knife_Blade;Forge_Crude_Blade;Forge_Small_Knife;Forge_Fleshing_Tool;BB_Forge_Fillet_Blade,
     }
 
 }

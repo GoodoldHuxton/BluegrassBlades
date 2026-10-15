@@ -1420,4 +1420,26 @@ module BluegrassBlades
         }
     }
 
+    model BB_BowieBlade_Damascus
+    {
+        mesh = WorldItems/KnifeHunting_Forged_Blade,
+        texture = weapons/1handed/BB_BowieBlade_Damascus,
+        scale = 0.125,
+        attachment knife_shoulder
+        {
+            offset = 0.0 0.15 0.0,
+            rotate = -90.0 0.0 -90.0,
+        }
+        attachment knife_stomach
+        {
+            offset = 0.0 0.15 0.0,
+            rotate = -90.0 0.0 -90.0,
+        }
+        attachment stomach
+        {
+            offset = 0.0 0.15 0.0,
+            rotate = -90.0 0.0 -90.0,
+        }
+    }
+
 }
