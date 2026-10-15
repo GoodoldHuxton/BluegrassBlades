@@ -1,0 +1,5 @@
+version=1
+title=Bluegrass Blades [B42]
+description=Work in progress. Placeholder text, the final description comes later.
+tags=Build 42;Weapons;Items
+visibility=unlisted
