@@ -38,10 +38,12 @@ description=[/list]
 description=
 description=[h2]Support[/h2]
 description=Everything in this mod is free for everyone. There is no paid or early access content. If you want to support future updates, you can do it here: [url=https://patreon.com/GoodoldHuxton]patreon.com/GoodoldHuxton[/url]
+description=[url=https://patreon.com/GoodoldHuxton][img]https://raw.githubusercontent.com/GoodoldHuxton/BluegrassBlades/main/docs/patreon_button.png[/img][/url]
 description=
 description=[h2]License[/h2]
 description=All rights reserved, source visible. Do not reupload or publish modified versions as a separate mod. Translations/addons with permission.
 description=
+description=Workshop ID: 3820010936
 description=Mod ID: BluegrassBlades
 description=Made by GoodoldHuxton.
 tags=Build 42;Weapons;Items
