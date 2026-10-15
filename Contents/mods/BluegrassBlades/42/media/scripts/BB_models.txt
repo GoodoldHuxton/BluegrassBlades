@@ -9,6 +9,70 @@ module BluegrassBlades
         Base
     }
 
+    model BB_Bowie_Leather_Blued
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Leather_Blued,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Polymer_BlackOxide
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Polymer_BlackOxide,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Walnut_Satin
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Walnut_Satin,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Bone_Satin
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Bone_Satin,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
     model BB_Bowie_Walnut_Temper
     {
         mesh = weapons/1handed/HuntingKnife,
@@ -25,10 +89,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Bowie_Walnut_Temper_2x
+    model BB_Bowie_Ivory_Damascus
     {
         mesh = weapons/1handed/HuntingKnife,
-        texture = weapons/1handed/BB_Bowie_Walnut_Temper_2x,
+        texture = weapons/1handed/BB_Bowie_Ivory_Damascus,
         attachment world
         {
             offset = 0.0022 0.115 -0.0089,
@@ -38,6 +102,87 @@ module BluegrassBlades
         {
             offset = -0.0166 -0.0017 0.0064,
             rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Polymer_Satin
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Polymer_Satin,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Polymer_Rusted
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Polymer_Rusted,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Leather_BlackOxide
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Leather_BlackOxide,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Bowie_Bone_Damascus
+    {
+        mesh = weapons/1handed/HuntingKnife,
+        texture = weapons/1handed/BB_Bowie_Bone_Damascus,
+        attachment world
+        {
+            offset = 0.0022 0.115 -0.0089,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0166 -0.0017 0.0064,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Fillet_Walnut_Satin
+    {
+        mesh = weapons/1handed/Knife_Fillet_Hand,
+        texture = weapons/1handed/BB_Fillet_Walnut_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0054 0.09 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
         }
     }
 
@@ -58,10 +203,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Fillet_Bone_Satin_2x
+    model BB_Fillet_Polymer_Satin
     {
         mesh = weapons/1handed/Knife_Fillet_Hand,
-        texture = weapons/1handed/BB_Fillet_Bone_Satin_2x,
+        texture = weapons/1handed/BB_Fillet_Polymer_Satin,
         scale = 1.0,
         attachment world
         {
@@ -72,6 +217,175 @@ module BluegrassBlades
         {
             offset = 0.0 0.0 0.0,
             rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BB_Fillet_Walnut_Temper
+    {
+        mesh = weapons/1handed/Knife_Fillet_Hand,
+        texture = weapons/1handed/BB_Fillet_Walnut_Temper,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0054 0.09 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BB_Fillet_Polymer_Rusted
+    {
+        mesh = weapons/1handed/Knife_Fillet_Hand,
+        texture = weapons/1handed/BB_Fillet_Polymer_Rusted,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0054 0.09 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BB_Fillet_Leather_Satin
+    {
+        mesh = weapons/1handed/Knife_Fillet_Hand,
+        texture = weapons/1handed/BB_Fillet_Leather_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0054 0.09 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BB_Folder_Polymer_BlackOxide
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Polymer_BlackOxide,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Polymer_BlackOxide_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Polymer_BlackOxide,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Walnut_Satin
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Walnut_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Walnut_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Walnut_Satin,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
         }
     }
 
@@ -134,10 +448,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Folder_Bone_Satin_2x
+    model BB_Folder_Polymer_Blued
     {
         mesh = weapons/1handed/PenKnife,
-        texture = weapons/1handed/BB_Folder_Bone_Satin_2x,
+        texture = weapons/1handed/BB_Folder_Polymer_Blued,
         scale = 1.0,
         attachment world
         {
@@ -161,15 +475,369 @@ module BluegrassBlades
         }
     }
 
-    model BB_Folder_Bone_Satin_2x_Closed
+    model BB_Folder_Polymer_Blued_Closed
     {
         mesh = weapons/Floor_FBX/PenKnife_Closed,
-        texture = weapons/1handed/BB_Folder_Bone_Satin_2x,
+        texture = weapons/1handed/BB_Folder_Polymer_Blued,
         scale = 0.01,
         attachment world
         {
             offset = -0.0092 0.0001 -0.01,
             rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Bone_Temper
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Bone_Temper,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Bone_Temper_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Bone_Temper,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Ivory_Satin
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Ivory_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Ivory_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Ivory_Satin,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Walnut_Damascus
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Walnut_Damascus,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Walnut_Damascus_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Walnut_Damascus,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Polymer_Satin
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Polymer_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Polymer_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Polymer_Satin,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Polymer_Rusted
+    {
+        mesh = weapons/1handed/PenKnife,
+        texture = weapons/1handed/BB_Folder_Polymer_Rusted,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0531 -0.01,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Folder_Polymer_Rusted_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed,
+        texture = weapons/1handed/BB_Folder_Polymer_Rusted,
+        scale = 0.01,
+        attachment world
+        {
+            offset = -0.0092 0.0001 -0.01,
+            rotate = 0.0001 0.0312 -0.1631,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Bone_Satin
+    {
+        mesh = weapons/1handed/PenKnife2,
+        texture = weapons/1handed/BB_Trapper_Bone_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0063 0.0182 0.007,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Bone_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed2,
+        texture = weapons/1handed/BB_Trapper_Bone_Satin,
+        scale = 0.1,
+        attachment world
+        {
+            offset = -0.013 -0.0028 -0.01,
+            rotate = -0.0 0.148 0.0639,
         }
         attachment belt_left_upside
         {
@@ -252,10 +920,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Trapper_Walnut_Satin_2x
+    model BB_Trapper_Bone_Temper
     {
         mesh = weapons/1handed/PenKnife2,
-        texture = weapons/1handed/BB_Trapper_Walnut_Satin_2x,
+        texture = weapons/1handed/BB_Trapper_Bone_Temper,
         scale = 1.0,
         attachment world
         {
@@ -279,10 +947,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Trapper_Walnut_Satin_2x_Closed
+    model BB_Trapper_Bone_Temper_Closed
     {
         mesh = weapons/Floor_FBX/PenKnife_Closed2,
-        texture = weapons/1handed/BB_Trapper_Walnut_Satin_2x,
+        texture = weapons/1handed/BB_Trapper_Bone_Temper,
         scale = 0.1,
         attachment world
         {
@@ -311,35 +979,224 @@ module BluegrassBlades
         }
     }
 
-    model BB_Kukri_Bone_Satin
+    model BB_Trapper_Ivory_Satin
     {
-        mesh = weapons/1handed/Machete,
-        texture = weapons/1handed/BB_Kukri_Bone_Satin,
+        mesh = weapons/1handed/PenKnife2,
+        texture = weapons/1handed/BB_Trapper_Ivory_Satin,
+        scale = 1.0,
         attachment world
         {
-            offset = 0.0061 0.1401 0.0,
-            rotate = -180.0 0.0 179.1843,
+            offset = 0.0063 0.0182 0.007,
+            rotate = 180.0 0.0 180.0,
         }
         attachment Bip01_Prop2
         {
-            offset = -0.0228 -0.0018 0.0048,
-            rotate = -36.0446 -81.1798 -34.2812,
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
         }
     }
 
-    model BB_Kukri_Bone_Satin_2x
+    model BB_Trapper_Ivory_Satin_Closed
     {
-        mesh = weapons/1handed/Machete,
-        texture = weapons/1handed/BB_Kukri_Bone_Satin_2x,
+        mesh = weapons/Floor_FBX/PenKnife_Closed2,
+        texture = weapons/1handed/BB_Trapper_Ivory_Satin,
+        scale = 0.1,
         attachment world
         {
-            offset = 0.0061 0.1401 0.0,
-            rotate = -180.0 0.0 179.1843,
+            offset = -0.013 -0.0028 -0.01,
+            rotate = -0.0 0.148 0.0639,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Polymer_Satin
+    {
+        mesh = weapons/1handed/PenKnife2,
+        texture = weapons/1handed/BB_Trapper_Polymer_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0063 0.0182 0.007,
+            rotate = 180.0 0.0 180.0,
         }
         attachment Bip01_Prop2
         {
-            offset = -0.0228 -0.0018 0.0048,
-            rotate = -36.0446 -81.1798 -34.2812,
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Polymer_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed2,
+        texture = weapons/1handed/BB_Trapper_Polymer_Satin,
+        scale = 0.1,
+        attachment world
+        {
+            offset = -0.013 -0.0028 -0.01,
+            rotate = -0.0 0.148 0.0639,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Polymer_Rusted
+    {
+        mesh = weapons/1handed/PenKnife2,
+        texture = weapons/1handed/BB_Trapper_Polymer_Rusted,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0063 0.0182 0.007,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0109 0.0018 0.0031,
+            rotate = -26.8942 -81.9055 -23.7561,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Trapper_Polymer_Rusted_Closed
+    {
+        mesh = weapons/Floor_FBX/PenKnife_Closed2,
+        texture = weapons/1handed/BB_Trapper_Polymer_Rusted,
+        scale = 0.1,
+        attachment world
+        {
+            offset = -0.013 -0.0028 -0.01,
+            rotate = -0.0 0.148 0.0639,
+        }
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Balisong_Walnut_Satin
+    {
+        mesh = weapons/1handed/ButterflyKnife,
+        texture = weapons/1handed/BB_Balisong_Walnut_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0397 0.0035,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0146 -0.0077 0.004,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Balisong_Walnut_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/ButterflyKnife_Closed,
+        texture = weapons/1handed/BB_Balisong_Walnut_Satin,
+        scale = 0.01,
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
         }
     }
 
@@ -387,10 +1244,10 @@ module BluegrassBlades
         }
     }
 
-    model BB_Balisong_Bone_Satin_2x
+    model BB_Balisong_Polymer_Blued
     {
         mesh = weapons/1handed/ButterflyKnife,
-        texture = weapons/1handed/BB_Balisong_Bone_Satin_2x,
+        texture = weapons/1handed/BB_Balisong_Polymer_Blued,
         scale = 1.0,
         attachment world
         {
@@ -404,10 +1261,142 @@ module BluegrassBlades
         }
     }
 
-    model BB_Balisong_Bone_Satin_2x_Closed
+    model BB_Balisong_Polymer_Blued_Closed
     {
         mesh = weapons/Floor_FBX/ButterflyKnife_Closed,
-        texture = weapons/1handed/BB_Balisong_Bone_Satin_2x,
+        texture = weapons/1handed/BB_Balisong_Polymer_Blued,
+        scale = 0.01,
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Balisong_Bone_Temper
+    {
+        mesh = weapons/1handed/ButterflyKnife,
+        texture = weapons/1handed/BB_Balisong_Bone_Temper,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0397 0.0035,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0146 -0.0077 0.004,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Balisong_Bone_Temper_Closed
+    {
+        mesh = weapons/Floor_FBX/ButterflyKnife_Closed,
+        texture = weapons/1handed/BB_Balisong_Bone_Temper,
+        scale = 0.01,
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Balisong_Polymer_Satin
+    {
+        mesh = weapons/1handed/ButterflyKnife,
+        texture = weapons/1handed/BB_Balisong_Polymer_Satin,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0397 0.0035,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0146 -0.0077 0.004,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Balisong_Polymer_Satin_Closed
+    {
+        mesh = weapons/Floor_FBX/ButterflyKnife_Closed,
+        texture = weapons/1handed/BB_Balisong_Polymer_Satin,
+        scale = 0.01,
+        attachment belt_left_upside
+        {
+            offset = -0.0075 0.04 0.0,
+            rotate = 0.0 120.0 90.0,
+        }
+        attachment belt_right_upside
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_left_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+        attachment webbing_right_knife
+        {
+            offset = 0.0075 0.04 0.0,
+            rotate = 0.0 0.0 90.0,
+        }
+    }
+
+    model BB_Balisong_Polymer_Rusted
+    {
+        mesh = weapons/1handed/ButterflyKnife,
+        texture = weapons/1handed/BB_Balisong_Polymer_Rusted,
+        scale = 1.0,
+        attachment world
+        {
+            offset = 0.0036 0.0397 0.0035,
+            rotate = 180.0 0.0 180.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0146 -0.0077 0.004,
+            rotate = 0.0 -82.5857 2.9014,
+        }
+    }
+
+    model BB_Balisong_Polymer_Rusted_Closed
+    {
+        mesh = weapons/Floor_FBX/ButterflyKnife_Closed,
+        texture = weapons/1handed/BB_Balisong_Polymer_Rusted,
         scale = 0.01,
         attachment belt_left_upside
         {

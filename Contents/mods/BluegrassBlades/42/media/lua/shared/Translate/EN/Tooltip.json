@@ -1,8 +1,17 @@
 {
+    "Tooltip_BB_Bowie_Military": "Government-issue fighting knife. Heavy, plain and built to last.",
     "Tooltip_BB_Bowie_Sporting": "A good hunting knife from the counter of a Kentucky gun store.",
+    "Tooltip_BB_Bowie_Knockoff": "Cheap import from a flea market table. Dulls fast and wears out faster.",
+    "Tooltip_BB_Bowie_Handmade": "Forged and fitted by hand. Rough, but it holds up.",
     "Tooltip_BB_Fillet_Sporting": "Thin, flexible blade for cleaning fish. A step above the bait shop kind.",
+    "Tooltip_BB_Fillet_Knockoff": "Bait shop special. Thin steel that won't stay sharp long.",
+    "Tooltip_BB_Fillet_Handmade": "Forged from scrap steel and wrapped in leather. Does the job.",
+    "Tooltip_BB_Folder_Military": "Issued lockback folder. The blade locks open and stays put.",
     "Tooltip_BB_Folder_Sporting": "Lockback folder from a sporting goods store. Fits any pocket.",
+    "Tooltip_BB_Folder_Knockoff": "Cheap folder with a loose lock. Better than nothing.",
     "Tooltip_BB_Trapper_Sporting": "Two-blade slip-joint, the kind every grandfather in Kentucky carried.",
-    "Tooltip_BB_Kukri_Sporting": "Camping chopper sold for clearing brush. Hits like a small axe.",
-    "Tooltip_BB_Balisong_Sporting": "Butterfly knife. Popular with collectors and teenagers since the movies."
+    "Tooltip_BB_Trapper_Knockoff": "Gas station pocketknife. Soft steel, wobbly blades.",
+    "Tooltip_BB_Balisong_Sporting": "Butterfly knife. Popular with collectors and teenagers since the movies.",
+    "Tooltip_BB_Balisong_Knockoff": "Cheap butterfly knife from a mall kiosk. The pins rattle.",
+    "Tooltip_BB_Blade_Unfinished": "A forged blade without a handle. Needs to be assembled and sharpened."
 }
